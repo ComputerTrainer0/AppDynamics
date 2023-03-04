@@ -1,0 +1,16 @@
+# have the firwall disabled
+ # Checking Whether Firewalld is Enabled
+ sudo systemctl is-enabled firewalld
+ 
+ # Getting status of Firewall
+ sudo systemctl status firewalld
+ 
+ # Stopping Firwewall from running
+ sudo systemctl stop firewalld
+
+ # Disabling Firewall
+ sudo systemctl disable firewalld
+ 
+ # reboot the system
+ reboot
+ 

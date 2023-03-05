@@ -14,3 +14,13 @@
  # reboot the system
  reboot
  
+# to Set Hostname
+hostnamectl set-hostname appd-controller
+
+# Upgrade or Downgrade Firefox.
+ # List the current version information
+  sudo yum list firefox --showdupli
+ # Upgrade to the latest or downgrade to the older version
+  sudo yum -y downgrade 102.6.0-1.el9
+
+  
